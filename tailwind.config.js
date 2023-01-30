@@ -1,0 +1,30 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  darkMode: 'class',
+  content: ["./**/*.{html,js}"],
+  theme: {
+    extend: {},
+    colors: {
+      'dark-blue-bg': 'hsl(230, 17%, 14%)',
+      'dark-blue-top': 'hsl(232, 19%, 15%)',
+      'dark-desaturated-blue': 'hsl(228, 28%, 20%)',
+      'desaturated-blue': 'hsl(228, 34%, 66%)',
+      'pale-blue': 'hsl(225, 100%, 98%)',
+      'light-grayish-blue': 'hsl(227, 47%, 96%)',
+      'light-grayer-blue': 'hsl(227, 47%, 92%)',
+      'dark-grayish-blue': 'hsl(228, 12%, 44%)',
+      'dark-grayer-blue': 'hsl(228, 20%, 30%)',
+      'white': '#ffffff',
+      'toggle-1': 'hsl(210, 78%, 56%)',
+      'toggle-2': 'hsl(146, 68%, 55%)',
+      'lime-green': 'hsl(163, 72%, 41%)',
+      'warning-red': 'hsl(356, 69%, 56%)',
+      'facebook-color': 'hsl(208, 92%, 53%)',
+      'twitter-color': 'hsl(203, 89%, 53%)',
+      'youtube-color': 'hsl(348, 97%, 39%)',
+      'instagram-gradient1': 'hsl(37, 97%, 70%)',
+      'instagram-gradient2': 'hsl(329, 70%, 58%)',
+    },
+  },
+  plugins: [],
+}

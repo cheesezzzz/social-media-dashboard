@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .dashboard-card {
+        @apply col-span-1 w-72 h-60 rounded-md bg-light-grayish-blue dark:bg-dark-desaturated-blue flex flex-col text-center items-center relative hover:bg-light-grayer-blue hover:dark:bg-dark-grayer-blue duration-200 transition-colors
+    }
+
+    .overview-cards{
+        @apply bg-light-grayish-blue dark:bg-dark-desaturated-blue w-72 h-36 rounded-md hover:bg-light-grayer-blue hover:dark:bg-dark-grayer-blue duration-200 transition-colors
+    }
+}
